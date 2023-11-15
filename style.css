@@ -1,0 +1,73 @@
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: lightseagreen;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.education h2{
+    text-align: center;
+}
+.location h2{
+    text-align: center;
+}
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+.location{
+    text-align: center;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: 250px;
+    border-radius: 20%;
+}
+
+.education ul {
+    list-style: none;
+    text-align: center;
+}
+
+
+.social-media ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-media li a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.about {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: lightseagreen;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: auto;
+    height: 100px;
+}
